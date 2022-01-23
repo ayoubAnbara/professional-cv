@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-  <link rel="icon" href="assets/images/resume.png"/>
+  <link rel="icon" href="assets/images/resume.png" />
+  <link rel="stylesheet" type="text/css" href="assets/css/print.min.css">
   <style>
     * {
       font-family: "Open Sans", sans-serif;
@@ -79,10 +80,13 @@
       margin-bottom: 10px;
     }
   </style>
-  <title>ANBARA Ayoub</title>
+  <title>ANBARA Ayoub CV</title>
 </head>
 
 <body>
+  <button type="button" onclick="printJS('docs/printjs.pdf')">
+    Print PDF
+  </button>
   <div class="header">
     <h2>ANBARA Ayoub</h2>
     <h3>Location: 14 Coop elfath - old frej - ElJadida - Morocco</h3>
@@ -93,9 +97,10 @@
     </h3>
     <h3>
       LinkedIn:
-      <a href="https://www.linkedin.com/in/ayoub-anbara-2372aa179/">ANBARA Ayoub</a>
+      <a target="_blank" href="https://www.linkedin.com/in/ayoub-anbara-2372aa179/">ANBARA Ayoub</a>
     </h3>
-    <h3>Github: <a href="https://github.com/ayoub96anbara">Github</a></h3>
+    <h3>Github: <a target="_blank" href="https://github.com/ayoub96anbara">Github</a></h3>
+    <h3>Stackoverflow: <a target="_blank" href="https://stackoverflow.com/users/9967174">Stackoverflow</a></h3>
   </div>
   <div class="content">
     <h2>Professional Summary:</h2>
@@ -107,180 +112,47 @@
     </p>
     <h2>Work Experience:</h2>
     <div>
-      <ul class="list">
+      <ul>
         <li>
-          Karaz 2021-Jun to Till now Full Stack (Java/JS) & Android Developer
+          <h3>Full Stack (Java/JS) & Android Developer</h3>
+          <i>Karaz</i>
+          <h4>2021-Jun to Till now</h4>
+          <p><strong>Mission:</strong>
+            Development and deployment of an e-commerce system composed by 3 web applications and 2 android apps (admin,
+            b2b and b2c).
+          </p>
+          <p><strong>Technology used:</strong> Java 8, Spring boot, Thymeleaf, Javascript, JQuery, Angular Js, MySql
+            - CI/CD using GitLab, Keycloack, Sonar
+            - Android native (Java)
+            - Manual testing</p>
         </li>
 
-        <li></li>
         <li>
-          OMNISHORE Groupe MEDTECH 2021-Jan to 2021-Mai Java Developer
+          <h3>Java EE Developer</h3>
+          <i>OMNISHORE Groupe MEDTECH</i>
+          <h4>2021-Jan to 2021-Mai</h4>
         </li>
+        <p><strong>Mission:</strong> Maintenance and evolution of a web application</p>
+        <p><strong>Technology used:</strong> Java 5, JSP, ORACLE 11g, Jasper Reports, Toplink, Struts, IBatis, Spring
+          IOC, ItarOne(framwork)...</p>
         <li>
-          Novaxys 2020-Oct to 2020-Nov Web & Mobile Developer
+          <h3>Android Developer Intern</h3>
+          <i>Novaxys</i>
+          <h4>2020-Oct to 2020-Nov</h4>
+
         </li>
-        <li>Freelancer 2018 - 2019 Fullstack developer</li>
+        <p><strong>Mission:</strong> Building an android application for ticket management system</p>
+        <p><strong>Technology used:</strong> Android native (Java 8)</p>
+        <li>
+          <h3>Freelancer - Fullstack & Android Developer</h3>
+          <h4>2018 - 2019</h4>
+        </li>
       </ul>
     </div>
-    <h2>Some of my work:</h2>
-    <h3 class="work">Now I am specialist in e-commerce websites</h3>
-    <p>
-      I have a successful businesses in egypt and uk with more than 3,000,000$
-      sales, And that didn't stopped me from love and practice my passionate
-      in programing.
-    </p>
-    <p>
-      I founded and manage these companies with my own at businesses layer and
-      programming layer. I use my brain and skills to get high income in
-      e-commerce but my passion and heart still with programming
-    </p>
-    <h3>Technology used:</h3>
-    <ul class="list inline">
-      <li>iline-eg.com</li>
-      <li>yogacrystals.co.uk</li>
-    </ul>
-    <div class="links">
-      <a href="https://bashqash.com">Website</a>
-      <a href="https://play.google.com/store/apps/details?id=com.bashqash.enduser">Android</a>
-      <a href="https://apps.apple.com/us/app/id1523259538">IOS</a>
-    </div>
-    <h3 class="work">Bashqash APP</h3>
-    <p>A financial App (Payment Method app)</p>
-    <h3>Technology used:</h3>
-    <ul class="list inline">
-      <li>Nodejs</li>
-      <li>Postgresql</li>
-      <li>ReactJS in Website</li>
-      <li>React Native in end-user app</li>
-      <li>Flutter in POS app</li>
-      <li>Java (Print invoice with printer in POS)</li>
-      <li>NFC and QR technologies</li>
-    </ul>
-    <div class="links">
-      <a href="https://bashqash.com">Website</a>
-      <a href="https://play.google.com/store/apps/details?id=com.bashqash.enduser">Android</a>
-      <a href="https://apps.apple.com/us/app/id1523259538">IOS</a>
-    </div>
 
-    <h3 class="work">Batikh Store</h3>
-    <p>E-Commerce Website and Mobile Application</p>
-    <h3>Technology I used:</h3>
+    <h2>Proficiency SKills</h2>
+    <h4>Java Ecosystem:</h4>
     <ul class="list inline">
-      <li>Nodejs</li>
-      <li>NestJS</li>
-      <li>MongoDB</li>
-      <li>ReactJS in Website</li>
-      <li>Vue in admin panel</li>
-      <li>AWS</li>
-      <li>react-native</li>
-      <li>Java (Payment integration in android)</li>
-      <li>Objective-C (Payment integration in IOS)</li>
-    </ul>
-    <div class="links">
-      <a href="https://batikh.net">Website</a>
-    </div>
-
-    <h3 class="work">Wetop store</h3>
-    <p>E-Commerce Website</p>
-    <h3>Technology I used:</h3>
-    <ul class="list inline">
-      <li>Nodejs</li>
-      <li>MongoDB</li>
-      <li>Vue in admin panel</li>
-      <li>AWS</li>
-      <li>ReactJS</li>
-      <li>NextJS for SSR</li>
-      <li>Typescript</li>
-    </ul>
-    <div class="links">
-      <a href="https://wetop.com.sa">Website</a>
-    </div>
-    <h3 class="work">Webaystore</h3>
-    <p>E-Commerce Application</p>
-    <h3>Technology I used:</h3>
-    <ul class="list inline">
-      <li>Nodejs</li>
-      <li>MongoDB</li>
-      <li>Vue in admin panel</li>
-      <li>AWS</li>
-      <li>react-native</li>
-      <li>Java</li>
-      <li>Objective-C</li>
-    </ul>
-    <p style="text-decoration: underline">
-      Note: if your location not in SA you can't register because you need
-      verify phone number
-    </p>
-    <p>USE: testuser, 1234567 to login</p>
-
-    <div class="links">
-      <a href="https://play.google.com/store/apps/details?id=com.laptop">Android</a>
-      <a href="https://apps.apple.com/sa/app/id1487385986">IOS</a>
-    </div>
-    <h3 class="work">Saafka</h3>
-    <p>This is a platform for freelancing like mostaql and fiver</p>
-    <h3>Technology I used:</h3>
-    <ul class="list inline">
-      <li>php</li>
-      <li>Laravel</li>
-      <li>MySQL</li>
-      <li>VueJS</li>
-    </ul>
-
-    <h3 class="work">Mazad Online</h3>
-    <p>This a site with all features if Flippa.com</p>
-    <h5>Technology I used:</h5>
-    <ul class="list inline">
-      <li>NodeJS</li>
-      <li>ReactJS</li>
-      <li>NextJS for SSR</li>
-      <li>MongoDB</li>
-      <li>ExpressJS</li>
-      <li>
-        web-scrapping with node to get app details from google play and app
-        store
-      </li>
-    </ul>
-    <div class="links">
-      <a href="http://mazad-online.herokuapp.com">Mazad-Online</a>
-    </div>
-
-    <h3 class="work">Some open-source projects and packages</h3>
-    <div class="links inline">
-      <a href="https://github.com/ElegantSoft/snake-game">Snake game in rust</a>
-      <p>
-        A simple snake game in rust because I believe in rust will be the
-        future and I want to be ready when rust taking over c++ in market
-      </p>
-      <a href="https://github.com/ElegantSoft/reseach-bypass-plagiarism-backend">plagiarism bypass AI python</a>
-      <a href="https://github.com/ElegantSoft/reseach-bypass-plagiarism-frontend">plagiarism bypass AI front-end
-        react</a>
-      <p>
-        An AI solution to convert english paragraphs into their synonymous to
-        bypass plagiarism detectors
-      </p>
-      <a href="https://github.com/ElegantSoft/elegant-ts">Elegant-TS</a>
-      <p>
-        This package for node and typescript helps me to just extends
-        controller and router to inherit REST apis CRUD operations in just 4
-        lines of code
-      </p>
-      <a href="https://www.npmjs.com/package/elegant-generator-ts">Elegant-Generator</a>
-      <p>
-        This package for node and typescript helps me to just extends
-        controller and router to inherit REST apis CRUD operations in just 4
-        lines of code A cli tool to generate MVC and admin panel for any model
-        For details please see
-      </p>
-      <p>
-        WATCH:
-        <a href="https://www.youtube.com/watch?v=hBTflrzC80A"> youtube</a>
-      </p>
-    </div>
-    <h3 class="work">proficiency SKills</h3>
-    <h5>Skill Level: Professional</h5>
-    <ul class="list inline">
-      <h4>Java Ecosystem:</h4>
       <li>Java</li>
       <li>Thymeleaf</li>
       <li>JEE</li>
@@ -294,8 +166,12 @@
       <li>RESTful Web Services...</li><br>
       <li>Spring/Spring boot: IOC, MVC, Security, Data, Transactions, REST Template, Profiles, Logging, Swagger, Spring
         cloud, AOP, EURIKA, Actuator
-        JWT, validation, Lombok, HATEOAS...</li>
-      <h4>Front End Ecosystem:</h4>
+        JWT, validation, Lombok, HATEOAS, Flyway...</li>
+
+    </ul>
+
+    <h4>Front End Ecosystem:</h4>
+    <ul class="list inline">
       <li>Javascript</li>
       <li>Typescript</li>
       <li>HTML5</li>
@@ -309,19 +185,25 @@
       <li>Json-server</li>
     </ul>
 
+
     <h4>Testing:</h4>
     <li>Unit test using JUnit, Mockito and Jasmine</li>
     <li>Manual testing</li>
     <li>Integration testing using postman</li>
 
-    <h4>Databse:</h4>
-    <li>Mysql</li>
-    <li>Oracle (Level: Intermediate)</li>
-    <li>H2</li>
+    <h4>Database:</h4>
+    <ul class="list inline">
+      <li>Mysql</li>
+      <li>Oracle (Level: Intermediate)</li>
+      <li>H2</li>
+    </ul>
 
-    <h4>Devops:</h4>
-    <li>Docker</li>
-    <li>CI/CD using GitLab</li>
+    <h4>Devops: (Level: Intermediate)</h4>
+    <ul class="list inline">
+      <li>Git</li>
+      <li>Docker</li>
+      <li>CI/CD using GitLab</li>
+    </ul>
 
     <h4>Project Management:</h4>
     <li>Agile and Scrum</li>
@@ -329,31 +211,50 @@
 
     <h4>Others:</h4>
     <li>Android native (Java) - Ionic</li>
-    <li>Linux </li>
+    <li>Linux (Level: Intermediate)</li>
     <li>UML, Design Patterns, Clean code-Solid principles.</li>
     <li>XML, YML</li>
     <li>Keycloack</li>
     <li>SonarQube</li>
 
-    <h5>Skill Level: Intermediate</h5>
-    <ul class="list inline">
-      <li>python</li>
-      <li>kotlin</li>
-      <li>java</li>
-      <li>spring boot</li>
-      <li>c++</li>
-      <li>Rust</li>
-      <li>Nginx</li>
+
+    <h2>Education:</h2>
+
+    <h3>Java/Angular Training</h3>
+    <i>Organised by ENABEL Belgique (PROJET PALIM)
+      <small> 
+      <a target="_blank" href="https://www.enabel.be/content/europees-proefproject-palim-linkt-it-ontwikkeling-marokko-aan-knelpuntberoepen-vlaanderen-0">
+         About Project</a></i>
+        </small>
+    <h4>2019-2020 (7 months)</h4>
+    <ul>
+      <li>Certaficate: <a target="_blank" href="assets/attestation_formation_en.pdf">View</a></li>
+      <li>Graduation project: creation a web (monolithic) and mobile app for the management of a medical clinic <br>
+        <a target="_blank" href="https://gitlab.com/medical-clinic">Code source published in GitLab</a>
+       
+      </li>
     </ul>
-    <h3 class="work">Education:</h3>
-    <p>Faculty of Physical Therapy October 6 University</p>
-    <h3 class="work">Languages</h3>
+      
+
+    <h3>Bachelor of Networing & Telecomunication</h3>
+    <i>Faculty of Sciences - Chouaib Doukkali University ElJadida Morocco</i>
+    <h4>2015–2019</h4>
+    <ul>
+      <li>Graduation project: Security of Wi-Fi networks
+        <a target="_blank" href="https://www.slideshare.net/ayoub_anbara96/wifi-securite">Link</a>
+      </li>
+    </ul>
+
+    <h2>Languages</h2>
     <ul class="list inline">
       <li>Arabic: Native</li>
       <li>French: Intermediate</li>
       <li>English: Intermediate</li>
     </ul>
   </div>
+
+  <script src="assets/js/print.min.js"></script>
+
 </body>
 
 </html>
