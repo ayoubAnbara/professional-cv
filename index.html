@@ -86,7 +86,7 @@
 
 <body>
   
-  <a href="javascript:generatePDF()">Generate PDF</a>
+  <a href="javascript:generatePDF()" id="anchor_generate_pdf">Generate PDF</a>
   <div id="resume">
     <div class="header">
       <h2>ANBARA Ayoub</h2>
@@ -214,7 +214,7 @@
       <li>Android native (Java) - Ionic</li>
       <li>Linux (Level: Intermediate)</li>
       <li>UML, Design Patterns, Clean code-Solid principles.</li>
-      <li>Keycloack, SonarQube, XML, YML</li>
+      <li>Keycloak, SonarQube, XML, YML</li>
       <li>CMS WordPress</li>
   
   
@@ -222,7 +222,7 @@
       <h2>Education:</h2>
   
       <h3>Java/Angular Training</h3>
-      <i>Organised by ENABEL Belgique (PROJET PALIM)
+      <i>Organized by ENABEL Belgique (PROJET PALIM)
         <small>
           <a target="_blank"
             href="https://www.enabel.be/content/europees-proefproject-palim-linkt-it-ontwikkeling-marokko-aan-knelpuntberoepen-vlaanderen-0">
@@ -260,7 +260,12 @@
   <script>
     function generatePDF(){
       //$("#resume").printElement();
+      document.getElementById('anchor_generate_pdf').style.display = "none";
       window.print();
+      window.onafterprint = function(){
+         console.log("Printing completed...");
+         document.getElementById('anchor_generate_pdf').style.display = "block";
+       }
     }
  
   </script>
